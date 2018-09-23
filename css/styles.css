@@ -1,0 +1,15 @@
+h1 {
+  color: black;
+  text-align: center;
+  font-style: italic;
+}
+body {
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/03/72/94/8457b9a65caa197.jpg");
+}
+#quiz {
+  margin-left: 10px;
+  background: #d2def2;
+  width: 400px;
+  border-radius: 20px;
+  float: left;
+}

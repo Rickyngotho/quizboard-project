@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="utf-8">
+  <title>Quiz Board!</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Quiz Board</h1>
+    <form id="quiz" name="quiz">
+      <p>1. What is JavaScripts?</p>
+      <input type ="radio" id = "mc" name ="question1" value ="is a programming language">is a programming language<br>
+      <input type ="radio" id = "mc" name ="question1" value ="is a game">is a game<br>
+      <input type ="radio" id = "mc" name ="question1" value ="none of the above">none of the above<br>
+      <p>2. What is the other name for JavaScript?</p>
+      <input type ="radio" id = "mc" name ="question2" value ="ECMAScripts">ECMAScripts<br>
+      <input type ="radio" id = "mc" name ="question2" value ="vue">vue<br>
+      <input type ="radio" id = "mc" name ="question2" value ="none of the above">none of the above<br>
+      <p>3. Where is the correct place to insert a Javascript?</p>
+      <input type ="radio" id = "mc" name ="question3" value ="The body section">The body section<br>
+      <input type ="radio" id = "mc" name ="question3" value ="both the head section and the body section">both the head section and the body section<br>
+      <input type ="radio" id = "mc" name ="question3" value ="The head section">The head section<br>
+      <p>4. The external JavaScript file must containthe script.tag</p>
+      <input type ="radio" id = "mc" name ="question4" value ="true">true<br>
+      <input type ="radio" id = "mc" name ="question4" value ="false">false<br>
+      <input type ="radio" id = "mc" name ="question4" value ="none of the above">none of the above<br>
+      <p>5. What is a var</p>
+      <input type ="radio" id = "mc" name ="question5" value ="is a van">is a van<br>
+      <input type ="radio" id = "mc" name ="question5" value ="variable">variable<br>
+      <input type ="radio" id = "mc" name ="question5" value ="none of the above">none of the above<br>
+
+      <input id = "button" type = "button" value ="submit" onclick="check();">
+
+  </form>
+
+      <div id="after_submit">
+        <p id="message"></p>
+        <p id="number_correct"></p>
+        <img id ="picture">
+
+  </div>
+
+
+
+</body>
+
+</html>
