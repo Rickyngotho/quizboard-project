@@ -1,3 +1,4 @@
+//business logic
 function check() {
 
   var question1 = document.quiz.question1.value;
@@ -38,7 +39,7 @@ function check() {
     score = 0;
   }
   document.getElementById("after_submit").style.visibiliy = "visible";
-
+  // document.getElementById("quiz").style.visibiliy = "hidden";
   document.getElementById("message").innerHTML = messages[score];
   document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
   document.getElementById("picture").src = pictures[score];
