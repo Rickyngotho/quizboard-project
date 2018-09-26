@@ -45,9 +45,10 @@ function check() {
   document.getElementById("picture").src = pictures[score];
 }
 // user interface
-$("button").click(function() {
-     $("#score-showing").toggle();
-     $("#quiz-hidden").toggle();
-   });
-     $("form#quiz").hide();
-     $("#score").show();
+$(document).ready(function() {
+  $('#button').click(function(){
+    $('form#quiz').hide();
+   $('#message', '#picture').toggle();
+   event.preventDefault();
+  });
+});
