@@ -3,9 +3,11 @@ h1 {
   text-align: center;
   font-style: italic;
 }
+
 body {
   background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/03/72/94/8457b9a65caa197.jpg");
 }
+
 #quiz {
   margin-left: 10px;
   background: #d2def2;
@@ -18,7 +20,6 @@ input {
   margin-bottom: 20px;
 }
 
-
 #button {
   background: green;
   border: none;
@@ -26,32 +27,35 @@ input {
   padding: 10px;
   color: white;
   font-size: 16px;
-  transition-duration:  .5s
-  margin-top: 15px;
+  transition-duration: .5s margin-top: 15px;
 }
+
 #button:hover {
-  background:white;
+  background: white;
   border: 1px solid green;
   color: black;
   cursor: pointer;
 }
+
 #after_submit {
-  background: #ff5459
-  padding: 10px 20px 10px 20px;
+  background: #ff5459 padding: 10px 20px 10px 20px;
   width: 400px;
   border-radius: 20px;
   float: left;
   margin-left: 20px;
   font-size: 30px;
 }
+
 #picture {
   width: 375px;
   height: 245px;
   display: show;
 }
+
 #mc {
   display: inline;
 }
+
 #message {
   display: show;
 }
