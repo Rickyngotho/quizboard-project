@@ -45,8 +45,9 @@ function check() {
   document.getElementById("picture").src = pictures[score];
 }
 // user interface
-$(document).ready(function(){
-  $("form#button").click(function(){
-    $("#quiz", "#picture").hide;
-  });
-});
+$("button").click(function() {
+     $("#score-showing").toggle();
+     $("#quiz-hidden").toggle();
+   });
+     $("form#quiz").hide();
+     $("#score").show();
