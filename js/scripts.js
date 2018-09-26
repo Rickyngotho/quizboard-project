@@ -46,9 +46,9 @@ function check() {
 }
 // user interface
 $(document).ready(function() {
-  $('#button').click(function(){
+  $('#button').click(function() {
     $('form#quiz').hide();
-   $('#message', '#picture').toggle();
-   event.preventDefault();
+    $('#message', '#picture').toggle();
+    event.preventDefault();
   });
 });
