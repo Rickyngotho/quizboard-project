@@ -47,7 +47,11 @@ input {
 #picture {
   width: 375px;
   height: 245px;
+  display: show;
 }
 #mc {
   display: inline;
+}
+#message {
+  display: show;
 }
